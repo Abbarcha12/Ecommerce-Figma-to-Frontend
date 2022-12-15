@@ -1,0 +1,114 @@
+.contact-backImage {
+  background-image: url(../assets/images/15.png);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.contact-all {
+  color: #fff;
+}
+.contact-title {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 75px;
+  color: #ffecec;
+  margin-left: 7rem;
+}
+.contact-heading {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 75px;
+  margin-left: 7rem;
+}
+.contact-btn {
+  border-radius: 10px !important;
+  /* margin-left: 7rem; */
+  width: 132px;
+  background-color: ghostwhite !important;
+  margin-bottom: 8rem;
+}
+.form-group {
+  padding: 10px;
+  border: 2px solid #a39e9e;
+  margin: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.form-group > label {
+  position: absolute;
+  top: -15px;
+  left: 26px;
+  background-color: white;
+  font-weight: 450;
+}
+
+.form-group > input {
+  border: none;
+}
+.input-large input {
+  height: 170px;
+}
+.iframe-all {
+  margin-top: 7rem !important;
+}
+.contact-map {
+  margin-left: 1rem;
+}
+.iframe-contact {
+  border-radius: 10px;
+  border: 1px solid #92060f;
+}
+.contact-mail h1 {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 45px;
+}
+.contact-send {
+  background-color: #92060f !important;
+  border: none !important;
+  color: #fff !important;
+  border-radius: 10px !important;
+  height: 40px;
+  width: 100%;
+}
+.textFiled1 {
+  width: 100%;
+}
+
+/* //////         Contact info /////// */
+
+.contactinfo-backImage {
+  background-image: url(../assets/images/16.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  object-fit: fill;
+  height: 38.375rem;
+}
+.info-head {
+  margin-top: 1rem;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.form-info-secound {
+  margin-top: 8.3rem !important;
+}
+
+.info-alll {
+  margin-top: 8rem;
+}
+.info-send {
+  background-color: #92060f;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  height: 40px;
+  width: 100%;
+}

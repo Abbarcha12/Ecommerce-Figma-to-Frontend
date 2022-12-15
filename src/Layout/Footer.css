@@ -1,0 +1,72 @@
+#Footer {
+  background-color: #283646;
+}
+.Footer-logo {
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+  margin: 1rem 3rem !important;
+  text-decoration: none;
+}
+.Footer-logo span {
+  color: #c7444e;
+}
+.Footer-logo-detail {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 23px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.Mail,
+.Phone {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.footer-text h3 {
+  color: #92989f;
+}
+.footer-text ul {
+  list-style-type: none;
+}
+.footer-text ul li {
+  font-size: 14px;
+  line-height: 23px;
+  line-height: 110%;
+  opacity: 0.8;
+  color: #ffffff;
+  line-height: 2rem;
+}
+.copyRight {
+  border-top: 1px solid #71777d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyRight p {
+  font-family: Jost;
+  font-style: Regular;
+  font-size: 12px;
+  letter-spacing: 0.26px;
+  color: #92989f;
+}
+@media screen and (max-width: 991px) {
+  .Footer-logo-container {
+    text-align: center;
+  }
+  .footer-text h3,
+  .footer-text ul li {
+    text-align: center;
+  }
+}

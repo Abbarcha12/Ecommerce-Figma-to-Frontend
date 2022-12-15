@@ -1,0 +1,32 @@
+.main-header {
+  background-image: url(../assets/images/Rectangle\ 3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+}
+.heading-content {
+  color: #fff !important;
+  padding: 4.5rem 5rem !important;
+}
+.headingcontenth4 {
+  font-size: 20px !important;
+  opacity: 0.6 !important;
+}
+.heading-content h2 {
+  font-size: 45px !important;
+  line-height: 60px !important;
+  margin-top: 1.9rem !important;
+}
+.heading-content button {
+  border-radius: 10px !important;
+  margin-top: 1.5rem !important;
+  color: #c8454f !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  padding: 8px 15px !important;
+  background: #ffffff;
+}
+.heading-content button:hover {
+  background-color: #ffffff;
+}

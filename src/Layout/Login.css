@@ -1,0 +1,141 @@
+.Login-form-heading{
+    font-family: Poppins;
+    font-style: SemiBold;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 900;
+    color: #1E1E27;
+}
+.login-form .form-grp input{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: calc(100% - 20%);
+    margin: auto 10%;
+    border-radius: 10px;
+}
+.login-form .form-grp{
+    position: relative;
+}
+.login-form .form-grp label{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 12%;
+    top: 5px;
+    font-family: Poppins;
+    font-style: Regular;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(30, 30, 39, 0.8);
+}
+
+.login-form button{
+    background-color: #92060F;
+    border: none;
+    width: calc(100% - 20%);
+    margin: auto 10%;
+    font-size: 1.4rem;
+}
+.forget-password a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #1E1E27;
+    text-decoration: none;
+}
+.OR-border{
+    position: relative;
+}
+.OR-container{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    width: 54px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 48%;
+    top: -1.2rem;
+    right: auto;
+}
+.OR-container h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #92060F;
+
+}
+.OR-border hr{
+    width: calc(100% - 20%);
+    margin: auto 10%;
+    border: 1.5px solid #C5C5C5;
+}
+
+.Social-icons{
+    display: flex;
+    justify-content: center;
+}
+.Social-icons a{
+    text-decoration: none;
+}
+.Social-icons a .facebook{
+    color: #3b5998;
+    height: 3.4rem;
+    width: 3.4rem;
+    position: relative;
+    top: -2px;
+}
+
+.Social-icons .Google{
+    height: 3rem;
+    width: 3rem;
+    background-color: #dc4b3b;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.Whatsapp{
+    background-color: green;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.Whatsapp svg{
+  fill: white;
+}
+
+.Linkedin{
+    height: 3rem;
+    width: 3rem;
+    background-color: #007ab6;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.needAcount{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #1E1E27;
+}
+.needAcount a{
+    text-decoration: none;
+    color: #1E1E27;
+    font-weight: 600;
+}

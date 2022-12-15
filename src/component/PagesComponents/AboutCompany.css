@@ -1,0 +1,156 @@
+.banner-img {
+  background-image: url(../../assets/images/1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.img-heading {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 75px;
+}
+
+.img-heading span {
+  color: #c8454f;
+}
+
+.img-title {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 75px;
+}
+
+.img-title span {
+  color: #c8454f;
+}
+
+.img-shadow {
+  background: rgba(0, 0, 0, 0.87);
+  opacity: 0.75;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 5rem !important;
+  width: 98%;
+  margin: auto;
+  margin-bottom: 5rem !important;
+}
+
+.img-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  /* margin-bottom: 7rem !important; */
+}
+
+.testimonial-row {
+  position: relative;
+  top: 3rem !important;
+}
+
+.testimonial-title {
+  text-align: center;
+}
+
+.testimonial-title h2 {
+  font-size: 42px;
+  line-height: 49px;
+}
+
+.testimonial-title h5 span {
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 6px;
+  color: #c8454f;
+}
+
+.card {
+  position: relative;
+  border: none;
+  margin-top: -10px;
+
+  border-radius: 20px;
+  border: none;
+}
+
+.inner-card {
+  position: absolute;
+  top: 49%;
+  left: 18px;
+  right: 30px;
+  border-radius: 20px;
+  background-color: #fff;
+  width: 89%;
+  margin-bottom: 2rem !important;
+}
+
+.inner-card img {
+  position: absolute;
+  top: -28px;
+  left: 39%;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+.inner-card-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.inner-card h6 {
+  text-align: center;
+  font-weight: 300;
+  font-family: Gilroy-Regular;
+  font-size: 13px;
+  letter-spacing: 3px;
+  line-height: 14px;
+}
+
+.inner-card p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.stars {
+  text-align: center;
+  color: orange;
+  margin-top: -5px;
+}
+.ProductPriceing h6 {
+  color: #c8454f !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+}
+.ProductPriceing Del {
+  font-weight: 300 !important;
+  font-size: 12px !important;
+  color: #1e1e27 !important;
+}
+.Quality {
+  font-weight: 400;
+  font-size: 16px;
+}
+.BuyBTn {
+  background: #1e1e27 !important;
+  border-radius: 10px !important;
+  color: #fff !important;
+  /* font-weight: bold !important; */
+  padding: 0.5rem 2.3rem !important;
+}
+.BuyBT {
+  background: #92060f !important;
+  border-radius: 10px !important;
+  color: #fff !important;
+  /* font-weight: bold !important; */
+  padding: 0.5rem 2.3rem !important;
+}

@@ -1,0 +1,29 @@
+.card1 {
+  position: relative;
+}
+.card1 button {
+  border: none !important;
+  width: 40%;
+  position: absolute;
+  top: 75%;
+  padding: 5px 0px;
+  font-size: 18px;
+  color: #c8454f;
+  font-weight: 500;
+  left: 30%;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.card1 button:hover {
+  background-color: #ffffff;
+}
+.MuiTypography-h5 {
+  font-weight: bold !important;
+  font-size: 20px;
+}
+.card2 {
+  border-radius: 10px 10px 0px 0px;
+  /* background-image: url('../../assets/images/3.png'); */
+  background-position: center;
+  background-repeat: no-repeat;
+}

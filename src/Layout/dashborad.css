@@ -1,0 +1,118 @@
+.Dashboradlogo h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 38px;
+  /* identical to box height */
+  position: relative;
+  left: -10px;
+
+  color: #1e1e27;
+}
+.Dashboradlogo span {
+  color: #c7444e;
+}
+.css-o5srbh-MuiPaper-root-MuiAppBar-root {
+  background-color: white !important;
+  color: black !important;
+}
+.css-m9mp0w-MuiToolbar-root {
+  background-color: white;
+  color: black !important;
+}
+.css-1xit39d-MuiContainer-root {
+  position: relative;
+}
+
+.SearchIcon {
+  position: absolute !important;
+  left: -10px !important;
+  color: #747774;
+  font-size: 24px !important;
+  top: 10px;
+}
+.Ions {
+  font-size: 2rem !important;
+}
+.spacing {
+  padding: 10px;
+}
+.CardHeading {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px !important;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #747774;
+}
+.CardAmount {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px !important;
+  line-height: 30px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: #1e1e27;
+}
+
+@media all and (max-width: 900px) {
+  .Images {
+    position: relative;
+    left: 27px;
+  }
+}
+@media all and (max-width: 900px) {
+  .Images {
+    position: relative;
+    left: 27px;
+  }
+}
+@media all and (max-width: 600px) {
+  .spacing1 {
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: center;
+  }
+  .Images {
+    position: relative;
+    left: -10px;
+  }
+}
+
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root:focus {
+  background: rgba(146, 6, 15, 0.1) !important;
+  border-radius: 10px !important;
+  color: #c7444e !important;
+}
+
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root:focus
+  .css-cveggr-MuiListItemIcon-root {
+  color: #c7444e !important;
+}
+.MainDiv {
+  position: relative;
+  align-items: center;
+}
+.ChartContent {
+  position: absolute;
+  bottom: 3rem;
+  left: 1.9rem;
+}
+
+@media all and (max-width: 375px) {
+}
+.ChartContent p {
+  font-size: 15px !important;
+  position: relative;
+}
+.ChartContent h6 {
+  position: absolute;
+  bottom: 1.6rem;
+  left: 2.4rem;
+}

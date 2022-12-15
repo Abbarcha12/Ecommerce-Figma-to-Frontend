@@ -1,0 +1,82 @@
+.Order-container{
+    background: #F5F5F5;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.Order-container h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.Prducts, .Total{
+    display: flex;
+    justify-content: space-between;
+}
+.Prducts h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 26px;
+}
+.Prducts p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    color: #747774;
+}
+.Total .Total-text h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 26px;
+}
+.Total .Total-Price{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #C7444E;
+}
+.Orders-form .form-check label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1E1E27;
+
+}
+.Orders-form .form-check #accountHelp{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #747774;
+    position: relative;
+    left: -6%;
+}
+.Orders-form button{
+    background: #C7444E;
+    border-radius: 50px;
+    border: none;
+    color: #ffff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+@media (min-width: 550px) and (max-width: 1199px) {
+    .Orders-form .form-check #accountHelp{
+        left: 0%;
+}
+}

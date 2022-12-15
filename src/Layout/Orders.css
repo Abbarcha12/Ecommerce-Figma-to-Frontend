@@ -1,0 +1,38 @@
+.order-table-container{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: calc(100% - 4rem);
+    margin: auto 2rem;
+}
+.order-table{
+    width: calc(100% - 6rem);
+    margin: auto 3rem;
+}
+.order-table tr th{
+    padding-top: 1rem;
+}
+.order-table tr td p{
+    margin-top: 2rem !important;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #747774;
+}
+.order-table tr td p.OrderItems, .order-table tr td p.OrderState{
+    color: #C7444E;
+}
+.bodyRow{
+    border-bottom: 2px solid #D9D9D9;
+}
+
+@media (max-width: 968px) {
+    .order-table-container{
+        overflow-x: scroll;
+    }
+    .order-table{
+        width: 968px !important;
+    }
+}

@@ -1,0 +1,48 @@
+.accordion {
+  margin: 2rem !important;
+  margin-top: 2rem !important;
+}
+.accordion-mian {
+  margin-top: 4rem !important;
+}
+.Faq-container {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 1rem;
+}
+.Faq-heading {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height */
+  color: #000000;
+  margin-left: 3rem;
+}
+.Faq-head {
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+}
+.Faq-span {
+  color: #c7444e;
+}
+#panel1-header {
+  background-color: #f5f5f5;
+  padding: 1rem;
+}
+.answer {
+  margin-top: 2rem;
+  background-color: #f5f5f5;
+  padding: 2rem;
+}
+.css-15v22id-MuiAccordionDetails-root {
+  padding: 0px 0px 0px !important;
+  margin-top: 1.5rem;
+}

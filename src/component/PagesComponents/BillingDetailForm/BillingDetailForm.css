@@ -1,0 +1,42 @@
+
+.form-caption{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.form .form-text{
+    position: relative;
+    left: -3%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #747774;
+}
+.form label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1E1E27;
+}
+.form input{
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.form input:focus{
+    box-shadow: none !important;
+    border-color: #C7444E;
+}
+.form-input-grp{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-input-grp .form-grp{
+    flex: 1;
+}
